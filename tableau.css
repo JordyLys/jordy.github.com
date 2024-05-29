@@ -1,0 +1,9 @@
+table{
+	border-collapse: collapse;
+	font-size: 450%;
+	
+}
+td,th{
+	border: 6px ridge black;
+	padding: 10px;
+}

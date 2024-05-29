@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="script.css">
+	<title>Formulaire 2</title>
+</head>
+<body>
+<form method="post" action="" >
+    <p>
+	   <label for="Nom">Nom</label><br>
+	   <input type="text" name="Nom">
+	</p>
+    <p>
+	   <label for="Prénom(s)">Prénom(s)</label><br>
+	   <input type="text" name="Prénom(s)">
+    </p>
+    <p>
+	   <label for="Email">Email</label><br>
+	   <input type="text" name="Email">
+	</p>
+	<p>
+	   <label for="Tel">Tel</label><br>
+	   <input type="numbers" name="Tel">
+    </p>
+    <legend>A quelle tranche d'âge appartenez-vous?</legend>
+    <p>
+    	<input type="radio" name="age"><label for="moins de 15 ans"> Moins de 15 ans</label><br>
+    	<input type="radio" name="age"><label for="Entre 15 et 21 ans"> Entre 15 et 21 ans</label><br>
+    	<input type="radio" name="age"><label for="Entre 21 et 30 ans">Entre 21 et 30 ans</label><br>
+    	<input type="radio" name="age"><label for="Plus de 30 ans ans"> Plus de 30 ans</label><br>
+    </p>
+    <legend>Frites ou Alloco?</legend>
+    <p>
+    	<input type="checkbox" name="choix"><label for="Frites"> Frites</label><br>
+    	<input type="checkbox" name="choix"><label for="Alloco"> Alloco</label><br>
+    </p>
+    <p>
+    	<label for="Avis">Que pensez-vous de ce site?</label><br>
+    	<textarea rows="8" cols="60"></textarea>
+    </p>
+    <p>
+       <input type="submit" style="border-color: black;">   <input type="reset" style="border-color: black;">
+    </p>
+</form>
+</body>
+</html>
